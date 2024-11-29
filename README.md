@@ -19,3 +19,7 @@ in Linux
 `
 source ./env/bin/activate
 `
+
+## Pit of Death Example
+There is a grid of squares and the agent should avoid the obstacle to reach to the goal. In the following figure, the outcome of the algorithm could be seen:
+![plot](./Figs/29.png)
