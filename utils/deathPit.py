@@ -54,7 +54,7 @@ class DeathPit:
 
     def update_cost_to_go(self, state_):
         if self.inside_goal(state_):
-            self.cost_to_go_next[state_[0],state_[1]] = 0
+            self.cost_to_go_next[state_[0],state_[1]] = 0 
             return
         
         cost_to_go_l = []
